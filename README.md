@@ -1,12 +1,12 @@
 # spcae
 gin服务
 
-#Required
+# Required
 Mysql
 
-#Conf
+# Conf
 config/config.toml
 
-#Run
+# Run
 $ cd $GOPATH/src/go-gin-example
 $ go run main.go 
