@@ -1,0 +1,93 @@
+info:
+  contact: {}
+paths:
+  /auth:
+    post:
+      consumes:
+      - application/json
+      description: Register
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":200,"msg":"ok","data": "data"}'
+          schema:
+            type: string
+        "500":
+          description: '{"code":1006, "msg": "添加账户失败", "data": "data"}'
+          schema:
+            type: string
+  /delete:
+    delete:
+      consumes:
+      - application/json
+      description: DeleteSpace
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":200,"msg":"ok","data": "data"}'
+          schema:
+            type: string
+        "500":
+          description: '{"code":1006, "msg": "删除失败", "data": "data"}'
+          schema:
+            type: string
+  /get:
+    get:
+      consumes:
+      - application/json
+      description: GetSpace
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":200,"msg":"ok","data": "data"}'
+          schema:
+            type: string
+        "500":
+          description: '{"code":1006, "msg": "获取失败", "data": "data"}'
+          schema:
+            type: string
+  /getlist:
+    get:
+      consumes:
+      - application/json
+      description: GetList
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":200,"msg":"ok","data": "data"}'
+          schema:
+            type: string
+        "500":
+          description: '{"code":1006, "msg": "获取失败", "data": "data"}'
+          schema:
+            type: string
+  /test:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{ "name": "1","password":"2"}'
+          schema:
+            type: string
+  /updavatar:
+    put:
+      consumes:
+      - application/json
+      description: UpdAvatar
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":200,"msg":"ok","data": "data"}'
+          schema:
+            type: string
+        "500":
+          description: '{"code":1006, "msg": "更新失败", "data": "data"}'
+          schema:
+            type: string
+swagger: "2.0"

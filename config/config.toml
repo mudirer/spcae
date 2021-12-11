@@ -1,0 +1,19 @@
+# HTTP Server
+[server]
+httpPort   = 5050
+readTimeout = 60
+writeTimeout = 60
+runMode = "debug"
+
+
+# 数据库连接
+[database]
+dsn  = "pheon:8kkOgjA4Q2xipm!e@tcp(edge.viodoc.com:3306)/blog?charset=utf8mb4&parseTime=true"
+debug = true
+
+[app]
+runtimeRootPath = "runtime/"
+logSavePath = "logs/"
+logSaveName = "log"
+logFileExt = "log"
+timeFormat = 20060102

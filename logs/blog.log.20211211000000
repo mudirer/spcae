@@ -1,0 +1,16 @@
+{"level":"error","msg":"register shoubing {0  311 21 14 1 0 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC} err is Key: 'SpaceIDentity.Sex' Error:Field validation for 'Sex' failed on the 'max' tag","time":"2021-12-11T11:47:46+08:00"}
+{"level":"error","msg":"register space error is Error 1062: Duplicate entry '3121' for key 'space_avatar'","time":"2021-12-11T13:53:00+08:00"}
+{"level":"error","msg":"updavatar shoubing {8  www  0 0 0 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC} err is Key: 'SpaceIDentity.SpaceClothing' Error:Field validation for 'SpaceClothing' failed on the 'required' tag\nKey: 'SpaceIDentity.Sex' Error:Field validation for 'Sex' failed on the 'required' tag\nKey: 'SpaceIDentity.Sort' Error:Field validation for 'Sort' failed on the 'required' tag","time":"2021-12-11T14:12:53+08:00"}
+{"level":"error","msg":"register space error is Error 1062: Duplicate entry '3121' for key 'space_avatar'","time":"2021-12-11T14:13:16+08:00"}
+{"level":"error","msg":"updmodify  error is Error 1062: Duplicate entry 'www' for key 'space_avatar'","time":"2021-12-11T14:16:58+08:00"}
+{"level":"error","msg":"register space error is Error 1062: Duplicate entry 'www' for key 'space_avatar'","time":"2021-12-11T14:16:58+08:00"}
+{"level":"error","msg":"register space error is Error 1062: Duplicate entry '312w1w12' for key 'space_avatar'","time":"2021-12-11T14:41:40+08:00"}
+{"level":"error","msg":"updavatar shoubing {17 } err is Key: 'UpdSpace.SpaceAvatar' Error:Field validation for 'SpaceAvatar' failed on the 'required' tag","time":"2021-12-11T14:44:10+08:00"}
+{"level":"error","msg":"getSpace  0 err is strconv.ParseInt: parsing \"\": invalid syntax","time":"2021-12-11T16:06:11+08:00"}
+{"level":"error","msg":"getSpace   err is strconv.ParseInt: parsing \"\": invalid syntax","time":"2021-12-11T16:08:21+08:00"}
+{"level":"error","msg":"deleteSpace shoubing {0} err is Key: 'SpaceSex.Sex' Error:Field validation for 'Sex' failed on the 'required' tag","time":"2021-12-11T16:21:26+08:00"}
+{"level":"error","msg":"deleteSpace shoubing {0} err is Key: 'SpaceSex.Sex' Error:Field validation for 'Sex' failed on the 'required' tag","time":"2021-12-11T16:22:37+08:00"}
+{"level":"error","msg":"getSpace shoubing {0} err is Key: 'SpaceSex.Sex' Error:Field validation for 'Sex' failed on the 'required' tag","time":"2021-12-11T16:24:15+08:00"}
+{"level":"error","msg":"getSpace shoubing {0} err is Key: 'SpaceSex.Sex' Error:Field validation for 'Sex' failed on the 'required' tag","time":"2021-12-11T16:27:12+08:00"}
+{"level":"error","msg":"getspace  error is Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ?' at line 1","time":"2021-12-11T16:30:55+08:00"}
+{"level":"error","msg":"get space error is Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ?' at line 1","time":"2021-12-11T16:30:55+08:00"}
