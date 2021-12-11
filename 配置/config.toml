@@ -8,7 +8,8 @@ runMode = "debug"
 
 # 数据库连接
 [database]
-dsn  = "pheon:8kkOgjA4Q2xipm!e@tcp(edge.viodoc.com:3306)/blog?charset=utf8mb4&parseTime=true"
+dsn  = "pheon:8kkOgjA4Q2xipm!e@tcp(localhost:3306)/blog?charset=utf8mb4&parseTime=true"
+
 debug = true
 
 [app]
