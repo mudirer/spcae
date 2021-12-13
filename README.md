@@ -8,5 +8,4 @@ Mysql
 config/config.toml
 
 # Run
-$ cd $GOPATH/src/go-gin-example
 $ go run main.go 
